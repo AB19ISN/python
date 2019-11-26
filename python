@@ -1,0 +1,21 @@
+def entree():
+   a=int(input("borne min"))
+   z=int(input("borne max"))
+   return a,z
+
+def calcul (a,z):
+    somme=0
+    while(z>a):
+       reste= a%5
+       if reste==0
+          somme=somme+a
+       a=a+1
+    return somme
+    
+def sortie(resultat):
+    print(resultat)
+a,z=entree()
+resultat=calcul(a,z)
+sortie(resultat)
+
+   
